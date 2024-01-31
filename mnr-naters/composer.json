@@ -1,0 +1,15 @@
+{
+    "name": "codespace/mnr-naters",
+    "autoload": {
+        "psr-4": {
+            "ots\\": "code/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Schmid Lothar",
+            "email": "web@jagolo.ch"
+        }
+    ],
+    "require": {}
+}

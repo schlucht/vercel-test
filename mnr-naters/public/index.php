@@ -1,3 +1,12 @@
-<h1>Start page</h1>
+<?php
+
+$app = new Application();
+
+
+$app->get('/', function () {
+    return 'Hello World';
+});
+
+$app->run();
 
 
