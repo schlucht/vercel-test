@@ -1,0 +1,23 @@
+:root {
+    --color-black: #121212;
+    --color-white: #fff;
+
+    --color-gray: #f5f5f5;
+    --color-gray-dark: #e0e0e0;
+    --color-gray-light: #fafafa;
+
+    --color-primary: #ff9800;
+}
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: gray;
+}
