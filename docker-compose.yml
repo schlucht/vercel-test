@@ -22,8 +22,7 @@ services:
         volumes:
             - ./mnr-naters:/var/www/html
             - ./webserver/php-ini-overrides.ini:/usr/local/etc/php/conf.d/extra.ini
-            - ./data/logs:/var/log   
-
+            - ./data/logs:/var/log
 
 networks:
     webserver:
